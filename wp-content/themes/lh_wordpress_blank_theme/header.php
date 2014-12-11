@@ -25,6 +25,7 @@
 <body>
 <div id="wrapper" class="hfeed">
     <div id="header">
+        <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
         <div id="masthead">
  
             <div id="access">

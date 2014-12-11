@@ -17,6 +17,15 @@
 	    }
 	} // end get_page_number
 
+    //Header Image
+    $args = array(
+        'width'         => 980,
+        'height'        => 60,
+        'default-image' => get_template_directory_uri() . '/IphoneIcon.png',
+    );
+    add_theme_support( 'custom-header', $args );
+
+
 	// Custom callback to list comments in the hbd-theme style
 	function custom_comments($comment, $args, $depth) {
 	  $GLOBALS['comment'] = $comment;

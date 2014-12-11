@@ -1,0 +1,42 @@
+/*
+ Theme Name:     customizrCustom  
+ Theme URI:      http://localhost:8888 
+ Description:    My description    
+ Author:         Zachary Shakked                
+ Author URI:     http://about.me/zacharyshakked
+ Template:       customizr      
+ Version:        1.0.0             
+*/
+@import url("../customizr/style.css");
+
+
+
+.tc-header
+{
+    min-height: 120px;
+}
+
+.navbar-wrapper
+{
+    background-color: none;
+}
+.navbar-inner.row-fluid{
+    background-color: orange;
+}
+.sticky-enabled .nav-collapse
+{
+    background-color:salmon;
+    float:left;
+}
+
+.brand a{
+    max-height: 50px;
+    max-width: 50px;
+    float:left;
+}
+
+.tc-header .brand img{
+    max-height: 100px;
+    max-width: 100px;
+    float:left;
+}
