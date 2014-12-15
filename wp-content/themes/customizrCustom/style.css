@@ -8,25 +8,90 @@
  Version:        1.0.0             
 */
 @import url("../customizr/style.css");
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+<!--FONT-->
 
 
+<!-- END OF FONT -->
 
 .tc-header
 {
-    min-height: 120px;
+    min-height: 100px;
+}
+
+header.tc-header
+{
+    border-bottom: 10px solid #261157; 
 }
 
 .navbar-wrapper
 {
-    background-color: none;
 }
 .navbar-inner.row-fluid{
-    background-color: orange;
 }
-.sticky-enabled .nav-collapse
+.navbar~a
 {
-    background-color:salmon;
-    float:left;
+    color: purple; 
+}
+
+.navbar .nav>li.current-menu-ancestor>a, .navbar .nav>li.current-menu-item>a{
+    border-bottom: 10px solid #998FB0;
+    color: salmon;
+    
+}
+.navbar .nav>li>a
+{
+    color: red;
+    width: auto;
+    margin: 0 auto;
+}
+
+.navbar-wrapper ~ a
+{
+    background-color: green;
+}
+
+.dropdown-menu > li > a
+{
+    background-color: blue;
+    
+}
+
+.navbar .nav > li > a:hover
+{
+    background-color: orange;  
+    text-align: center;
+}
+
+.navbar .nav > li > a:focus
+{
+    background-color: yellow;   
+}
+.navbar .btn-navbar
+{
+    color: red; 
+    text-shadow: none;
+}
+
+.navbar .btn-navbar
+{
+    background-color: green;   
+}
+
+.navbar .nav>li>a, .navbar div>ul.nav>.menu-item:last-child>a{
+    padding: 10px;
+    
+}
+.navbar .nav>li>a
+{
+    font-family: 'Roboto', sans-serif;   
+    text-shadow: none;   
+}
+
+
+.menu-navigation-container
+{
+    text-align: center;   
 }
 
 .brand a{
@@ -36,7 +101,16 @@
 }
 
 .tc-header .brand img{
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 75px;
+    max-width: 75px;
     float:left;
 }
+
+.tc-slider-controls.left a{
+    color: red;
+}
+
+.tc-slider-controls.right a{
+    color: red;  
+}
+
